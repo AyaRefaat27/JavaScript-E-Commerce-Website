@@ -13,8 +13,16 @@
     <!-- FlatIcon Link -->
     <link rel="stylesheet" href="" />
 
+    <!-- Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    />
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
     <!-- CSS File -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -23,30 +31,219 @@
   </head>
   <body>
     <!-- **************** HEADER ****************-->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header_top">
+        <div class="header_container container">
+          <div class="header_contact">
+            <span> (+20)- 1025 048 330 </span>
+            <span>Our Location</span>
+          </div>
+          <p class="header_alert-news">
+            Super Value Deals - Save more with coupons
+          </p>
+
+          <a href="login_register.html" class="header_top-action"
+            >SignIn / SignUp</a
+          >
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="./assets/images/logo.png" alt="" class="nav__logo-image" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active__link"> Home </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link"> Shop </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link"> My Account </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link"> Compare </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login_register.html" class="nav__link"> Login </a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Search for items.."
+              class="form__input"
+            />
+
+            <button class="search__btn">
+              <img
+                src="./assets/images/search.svg"
+                alt=""
+                width="25px"
+                height="25px auto"
+              />
+            </button>
+          </div>
+
+          <div class="header__user-actions">
+            <a href="whishList.html" class="header__action-btn">
+              <i class="icon-heart"></i>
+              <span class="count"> 3 </span>
+            </a>
+
+            <a href="cart.html" class="header__action-btn">
+              <i class="icon-handbag"></i>
+              <span class="count"> 3 </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- **************** MAIN ******************-->
     <main class="main">
       <!-- HOME -->
-      <section class="home"></section>
+      <section class="home section-lg">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle"> Hot Pormotions</span>
+            <h1 class="home__title">
+              Fashion Trending <span> Great Collections</span>
+            </h1>
+            <p class="home__description">
+              Save more with coupons & up to 20% off
+            </p>
+            <a href="shop.html" class="btn">
+              Shop Now
+              <i class="icon-arrow-right"></i>
+            </a>
+          </div>
+          <img
+            src="./assets/images/home.png"
+            alt="fashion"
+            class="home__image"
+          />
+        </div>
+      </section>
 
       <!-- CATEGORIES -->
-      <section class="categories"></section>
+      <section class="categories container section">
+        <h3 class="section__title"><span>Popular </span> Categories</h3>
+        <div class="categories__container swiper">
+          <div class="swiper-wrapper">
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+
+            <a href="shop.html" class="category__item swiper-slide">
+              <img
+                src="https://i.pinimg.com/564x/f7/3c/03/f73c03e885bb87234d20e94daad3575e.jpg"
+                alt=""
+                class="category__image"
+              />
+              <h3 class="category__title">Bag</h3>
+            </a>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
 
       <!-- PRODUCTS -->
       <section class="products"></section>
 
       <!-- DEALS -->
       <section class="deals"></section>
+
+      <!-- NEW ARRIVALS -->
+      <section class="new__arrival"></section>
+
+      <!-- NEWSLETTER -->
+      <section class="newsletter"></section>
     </main>
 
-    <!-- Javascript File -->
-    <script src="./assets/js/script.js"></script>
+    <!-- **************** FOOTER ******************-->
+    <footer class="footer"></footer>
 
+    <!-- Swiper JS Link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- Font Awesome Link -->
     <script
       src="https://kit.fontawesome.com/2dd7407482.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Javascript File -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
