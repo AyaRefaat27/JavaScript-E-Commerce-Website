@@ -57,6 +57,20 @@
         </a>
 
         <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img
+                src="./assets/images/logo.png"
+                alt=""
+                class="nav__logo-image"
+              />
+            </a>
+
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+
           <ul class="nav__list">
             <li class="nav__item">
               <a href="index.html" class="nav__link active__link"> Home </a>
@@ -97,17 +111,22 @@
               />
             </button>
           </div>
+        </div>
 
-          <div class="header__user-actions">
-            <a href="whishList.html" class="header__action-btn">
-              <i class="icon-heart"></i>
-              <span class="count"> 3 </span>
-            </a>
+        <div class="header__user-actions">
+          <a href="whishList.html" class="header__action-btn">
+            <i class="icon-heart"></i>
+            <span class="count"> 3 </span>
+          </a>
 
-            <a href="cart.html" class="header__action-btn">
-              <i class="icon-handbag"></i>
-              <span class="count"> 3 </span>
-            </a>
+          <a href="cart.html" class="header__action-btn">
+            <i class="icon-handbag"></i>
+            <span class="count"> 3 </span>
+          </a>
+
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <!-- <i class="icon-menu"></i> -->
+            <i class="fi fi-rs-bars-staggered"></i>
           </div>
         </div>
       </nav>
@@ -1873,7 +1892,7 @@
             </div>
 
             <div class="deals__btn">
-              <a href="details.html" class="btn btn__md"> Shop Now </a>
+              <a href="shop.html" class="btn btn__md"> Shop Now </a>
             </div>
           </div>
 
@@ -1917,7 +1936,7 @@
             </div>
 
             <div class="deals__btn">
-              <a href="details.html" class="btn btn__md"> Shop Now </a>
+              <a href="shop.html" class="btn btn__md"> Shop Now </a>
             </div>
           </div>
         </div>
@@ -2734,7 +2753,151 @@
     </main>
 
     <!-- **************** FOOTER ******************-->
-    <footer class="footer"></footer>
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img
+              src="./assets/images/logo.png"
+              alt=""
+              class="footer__logo-image"
+            />
+          </a>
+
+          <h4 class="footer__subtitle">Contact</h4>
+          <p class="footer__description">
+            <span>Address</span> : 25 Saad Zaghlol , Street 32 , Alexandria
+          </p>
+
+          <p class="footer__description">
+            <span>Phone</span> : +201085282790 / +201569607978 / +201297580768
+          </p>
+
+          <p class="footer__description">
+            <span>Hours</span> : 10:00<span>am</span> - 20:00<span>pm</span> ,
+            Mon - Sat
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Follow Me</h4>
+            <div class="footer__social-links flex">
+              <a href="https://facebook.com">
+                <img
+                  src="./assets/images/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://twitter.com">
+                <img
+                  src="./assets/images/icon-twitter.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://instagram.com">
+                <img
+                  src="./assets/images/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://pinterest.com">
+                <img
+                  src="./assets/images/icon-pinterest.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://youtube.com">
+                <img
+                  src="./assets/images/icon-youtube.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Address</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">About Us</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link">Delivery Information</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Terms & Conditions </a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Support Center</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">My Account</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="login_register.html" class="footer__link">Sign In</a>
+            </li>
+
+            <li>
+              <a href="cart.html" class="footer__link">View Cart</a>
+            </li>
+
+            <li>
+              <a href="whishList.html" class="footer__link"> My Wishlist</a>
+            </li>
+
+            <li>
+              <a href="checkOut.html" class="footer__link"> Track my Order </a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link">Help</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Order</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Secured Payment Gatways</h3>
+
+          <img
+            src="./assets/images/payment-method.png"
+            alt=""
+            class="payment__image"
+          />
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2023 Fashion. All Rights Reserved</p>
+        <span class="designer">Designed by FASHION</span>
+      </div>
+    </footer>
 
     <!-- Swiper JS Link -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
