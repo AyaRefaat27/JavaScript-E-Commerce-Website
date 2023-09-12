@@ -6,7 +6,11 @@ font-family: 'Courgette', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Gentium Book Plus', serif;
 font-family: 'Kalam', cursive;
-font-family: 'Work Sans', sans-serif; */
+font-family: 'Work Sans', sans-serif; 
+  border: 1px solid #717e3198;
+  background-color: #c9a36fde;
+
+*/
 
 /*********  2. CSS VARIABLES  *********/
 :root {
@@ -15,7 +19,7 @@ font-family: 'Work Sans', sans-serif; */
   /* Colors */
   --first-color: hsl(176, 88%, 27%);
   --first-color-alt: hsl(129, 42%, 94%);
-  --second-color: hsl(34, 94%, 87%);
+  --second-color: hsla(35, 45%, 61%, 0.871);
   --title-color: hsl(0, 0%, 13%);
   --text-color: hsl(154, 13%, 32%);
   --text-color-light: hsl(60, 1%, 56%);
@@ -641,7 +645,7 @@ table {
 
 /* ACTIVE TAB */
 .tab__btn.active__tab {
-  color: var(--first-color);
+  color: var(--body-color);
   background-color: var(--second-color);
 }
 
